@@ -6,7 +6,9 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   server: {
     // @ts-ignore
-    preset: "vercel"
+    nitro: {
+      preset: "vercel"
+    }
   },
   plugins: [
     solidStart(),
