@@ -12,7 +12,7 @@ export default function Hero() {
                     <h1 class="text-7xl font-extrabold">
                         Making
                         <span class="text-rotate text-7xl font-extralight">
-                            <span class="lg:ml-4">
+                            <span class="lg:ml-4 sm:justify-items-center">
                                 <span>Software.</span>
                                 <span>Tools.</span>
                                 <span>Projects.</span>
