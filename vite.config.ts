@@ -5,6 +5,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   server: {
+    // @ts-ignore
     preset: "vercel"
   },
   plugins: [
