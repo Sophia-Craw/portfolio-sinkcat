@@ -6,9 +6,7 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   server: {
     // @ts-ignore
-    nitro: {
-      preset: "vercel"
-    }
+    preset: "cloudflare_pages"
   },
   plugins: [
     solidStart(),
